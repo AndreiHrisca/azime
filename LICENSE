@@ -1,0 +1,53 @@
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+Copyright 2025 Andrei Ionuț Hrisca
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+-----------------------------------------------------------------------
+NOTICE REGARDING THIRD-PARTY MODELS AND COMPONENTS
+-----------------------------------------------------------------------
+
+Azime integrates and interacts with several third-party open-source AI models
+and libraries that are distributed under their respective licenses. These
+external components are **not** covered by this Apache License and remain
+subject to their original terms and conditions.
+
+Examples include (but are not limited to):
+ - Whisper (OpenAI) — MIT License
+ - Mistral / Mixtral — Apache License 2.0
+ - Silero VAD — MIT License
+ - LLaMA 3 — Meta AI License Agreement (non-redistributable weights)
+ - bge-large / Sentence Transformers — Apache License 2.0
+
+Azime does **not redistribute** third-party model weights or datasets.
+It merely provides integration mechanisms to use them as external dependencies.
+
+Users and contributors are responsible for ensuring compliance with the
+respective licenses of any external models, weights, or datasets they choose
+to use with Azime.
+
+By using Azime, you acknowledge that:
+ 1. The core Azime codebase is licensed under Apache License 2.0.
+ 2. The use of any third-party model or library remains under its own license.
+ 3. You are responsible for complying with all applicable terms when loading,
+    fine-tuning, or distributing third-party models.
+
+-----------------------------------------------------------------------
+END OF LICENSE
+-----------------------------------------------------------------------
